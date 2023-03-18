@@ -1,0 +1,23 @@
+Format Type attendu
+"%d"       int
+"%ld"      long
+"%f"       float
+"%f"       double 
+
+
+int age = 0;
+scanf("%d", &age);
+
+Attention, il y a une petite divergence de format entre printf et scanf ! Pour récupérer un float, c'est le format
+"%f" qu'il faut utiliser, mais pour le type double c'est le format "%lf".
+
+double poids = 0;
+scanf("%lf", &poids);
+
+int resultat = 0;
+resultat = 5 / 2;
+printf ("5 / 2 = %d", resultat);division euclidienne
+
+double resultat = 0;
+resultat = 5.0 / 2.0;
+printf ("5 / 2 = %f", resultat);
